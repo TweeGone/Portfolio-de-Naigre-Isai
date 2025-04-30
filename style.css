@@ -988,8 +988,7 @@ html {
 
 .veille-section h2 {
   font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: #1B819B;
+  margin-bottom: 3rem auto;
 }
 
 .veille-box {
