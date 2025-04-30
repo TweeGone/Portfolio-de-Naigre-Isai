@@ -981,33 +981,59 @@ html {
 
 .veille-section {
   padding: 4rem 2rem;
+  text-align: center;
   background-color: #0d1117;
   color: white;
-  text-align: center;
 }
 
 .veille-section h2 {
-  color: #1B819B;
   font-size: 2.5rem;
   margin-bottom: 2rem;
-}
-
-.veille-content {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: rgba(27, 129, 155, 0.05);
-  padding: 2rem;
-  border-radius: 20px;
-  border: 1px solid #1B819B44;
-  backdrop-filter: blur(5px);
-}
-
-.veille-content p {
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-}
-
-.veille-content a {
   color: #1B819B;
-  text-decoration: underline;
+}
+
+.veille-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  background: rgba(255, 255, 255, 0.05); /* Transparent box */
+  border-radius: 20px;
+  padding: 2rem;
+  border: 1px solid #1B819B33;
+  box-shadow: 0 0 15px rgba(27, 129, 155, 0.3);
+}
+
+.veille-card {
+  flex: 1 1 300px;
+  max-width: 400px;
+  background-color: rgba(13, 17, 23, 0.9);
+  border: 1px solid #1B819B44;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+  backdrop-filter: blur(6px);
+}
+
+.veille-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #1B819B88;
+}
+
+.veille-card h3 {
+  color: #1B819B;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.veille-card ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.veille-card p {
+  margin-bottom: 0.8rem;
+  color: #ddd;
 }
