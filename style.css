@@ -1007,34 +1007,7 @@ html {
   line-height: 1.6;
 }
 
-.veille-content ul {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0;
-}
-
-.veille-content li {
-  margin: 0.5rem 0;
-  text-align: left;
-}
-
 .veille-content a {
   color: #1B819B;
   text-decoration: underline;
-}
-
-.veille-btn {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 0.8rem 1.5rem;
-  background-color: #1B819B;
-  color: white;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.veille-btn:hover {
-  background-color: #14728c;
 }
